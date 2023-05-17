@@ -1,0 +1,76 @@
+body {
+    background-color: azure;
+    opacity: 1;
+    background-image: radial-gradient(#000000 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+  }
+  
+  .App {
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium';
+  }
+  
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .nav-left img {
+    width: 300px;
+    height: 50px;
+  }
+  
+  .login-btn {
+    background-color: azure;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition-duration: 0.4s;
+  }
+  
+  .login-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .hero-cont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+  }
+  
+  .hero-left{
+    margin-right: 150px;
+    margin-left: 50px;
+    font-size: 70px;
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+  }
+  
+  .hero-right img{
+    width: 600px;
+    height: 350px;
+    border-radius: 50px;
+  }
+  
+  .join-btn {
+    background-color: black;
+    color: azure;
+    padding: 10px 30px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition-duration: 0.4s;
+  }
+  
+  .join-btn:hover {
+    background-color: azure;
+    color: black;
+    border: 2px solid black;
+  }
