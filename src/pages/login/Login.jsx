@@ -13,7 +13,7 @@ export default function Login() {
         
          <h1>Welcome To PGMAPS</h1>
           <p>
-            Find your perfect PG in seconds with PGMAPS <br></br> The ultimate
+            Find your perfe PG in seconds with PGMAPS <br></br> The ultimate
             time-saving app for locating nearby PG!
             <br></br><strong>ENJOY!!!!</strong> 
             
