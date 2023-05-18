@@ -1,0 +1,17 @@
+.Dashboard{
+    background-color: #2A2F4F;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 81px;
+    width: 100%;
+}
+ .nav-left img{
+    height: 41px;
+    width:251px;
+
+}
+

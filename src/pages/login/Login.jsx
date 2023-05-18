@@ -1,12 +1,17 @@
 import React from "react";
 import "./login.css";
-
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import  {app} from "../../firebase";
+import { useNavigate } from "react-router-dom";
+
 
 export default function Login() {
   const provider = new GoogleAuthProvider();
   const auth = getAuth(app);
+
+
+  const navigate = useNavigate();
+
 async function handleSignIn() {
   signInWithPopup(auth, provider)
   .then((result) => {
@@ -15,7 +20,8 @@ async function handleSignIn() {
     const token = credential.accessToken;
     // The signed-in user info.
     const user = result.user;
-    console.log(user)
+    console.log(user.displayName)
+    navigate("/dashboard")
     // IdP data available using getAdditionalUserInfo(result)
     // ...
   }).catch((error) => {
