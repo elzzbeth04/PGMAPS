@@ -6,12 +6,26 @@
     display:flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: start;
     height: 81px;
     width: 100%;
 }
  .nav-left img{
     height: 41px;
     width:251px;
-
+    
+}
+ .nav-centre h1{
+    
+    color: #EFBEEC;
+   
 }
 
+
+
+.image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+}
