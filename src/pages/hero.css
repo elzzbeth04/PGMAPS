@@ -1,8 +1,6 @@
 body {
-    background-color: azure;
-    opacity: 1;
-    background-image: radial-gradient(#000000 0.5px, #e5e5f7 0.5px);
-    background-size: 10px 10px;
+  background-color: #2A2F4F;
+   
   }
   
   .App {
@@ -10,22 +8,27 @@ body {
     font-family: 'Franklin Gothic Medium';
   }
   
-  
+  .hero{
+    background-color: #2A2F4F;
+
+  }
   .nav {
     display: flex;
     justify-content: space-between;
   
   }
-  
+  .nav-left h1{
+    color:#FDE2F3;
+  }
   .nav-left img {
     width: 300px;
     height: 50px;
   }
   
-  .login-btn {
-    background-color: azure;
-    color: black;
-    border: 2px solid black;
+  .nav-right {
+    background-color: #FDE2F3;
+    color: #FDE2F3;
+    border: 2px solid #2A2F4F;
     padding: 10px 30px;
     border-radius: 12px;
     font-size: 20px;
@@ -33,8 +36,8 @@ body {
     transition-duration: 0.4s;
   }
   
-  .login-btn:hover {
-    background-color: black;
+  .nav-right:hover {
+    background-color:#917FB3;
     color: white;
   }
   
@@ -42,6 +45,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-top: 150px;
+    
   }
   
   .hero-left{
@@ -52,16 +56,18 @@ body {
     align-items: self-start;
     flex-direction: column;
   }
-  
+  .hero-left h3{
+    color:#E5BEEC;
+  }
   .hero-right img{
-    width: 600px;
+    width: 700px;
     height: 350px;
     border-radius: 50px;
   }
   
-  .join-btn {
-    background-color: black;
-    color: azure;
+  .hero-left button {
+    background-color: #FDE2F3;
+    color: #2A2F4F;
     padding: 10px 30px;
     border-radius: 12px;
     font-size: 20px;
@@ -71,6 +77,6 @@ body {
   
   .join-btn:hover {
     background-color: azure;
-    color: black;
-    border: 2px solid black;
+    color: #2A2F4F;
+    border: 2px solid #2A2F4F;
   }
