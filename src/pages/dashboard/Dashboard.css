@@ -1,31 +1,164 @@
-.Dashboard{
+Dashboard{
     background-color: #2A2F4F;
+    display:flex;
+    align-items:column;
 }
 
 .navbar{
     display:flex;
-    justify-content: space-between;
+   
     flex-direction: row;
+    justify-content:space-between;
     align-items: start;
-    height: 81px;
+    height: 61px;
     width: 100%;
+    padding:10px;
+
 }
- .nav-left img{
+.navbar-left{
+    margin-left: 0px;
+}
+ .logo{
     height: 41px;
     width:251px;
     
 }
- .nav-centre h1{
+ .dash{
     
     color: #EFBEEC;
    
 }
 
-
-
-.image{
+.navbar-right{
+    display:flex;
+    flex-direction: row;
+    
+    margin-left: 10px;
+}
+.name{
+    color: #EFBEEC;
+    
+    font-weight: 800;
+   
+}
+.pic{
     height: 50px;
     width: 50px;
     border-radius: 50px;
 
+}
+.bar{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.heading{
+    width: 251px;
+    height: 30px;
+    color: #EFBEEC;
+}
+.left-bar{
+    display:flex;
+    gap:40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+   height: 30vh;
+    padding: 5px;
+    border:5px solid #917FB3;
+    border-top: 10px solid #917FB3;
+    border-radius: 10px;
+  
+}
+.btn{
+   
+    width: 80%;
+    height: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    
+   
+    background-color: #FDE2F3;
+
+}
+.btn2{
+   
+    width: 80%;
+    height: 50px; 
+    padding: 5px;
+   
+    border-radius: 20px;
+   
+   background-color: #FDE2F3;
+
+} 
+.centre{
+    width: 754px;
+   padding-top: 15px;
+    padding-left: 20px;
+    border:5px solid #917FB3;
+    border-top: 10px solid #917FB3;
+    border-radius: 10px;
+}
+.card{
+    width: 100%;
+    height: 218px;
+}
+.pgpic{
+    width: 183px;
+height: 160px;
+float: left;
+}
+.card-content{
+    clear: right;
+    color: #FDE2F3;
+    padding: 5px;
+}
+.right-bar{
+     width: 459px;
+     border:5px solid #917FB3;
+     border-top: 10px solid #917FB3;
+     border-right: 10px solid #917FB3;
+     border-radius: 10px;
+     padding: 10px;
+}
+.new{
+    color: #917FB3;
+    font-size: 50px;
+    font-weight: 800;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.name{
+    color: #EFBEEC;
+}
+.form label{
+    color:#EFBEEC;
+}
+
+input#pgname {
+   
+    height: 50px;
+    width: 100%;
+    background-color: #EFBEEC;
+}
+input#add{
+   
+    height: 100px;
+    width:100%;
+    background-color: #EFBEEC;
+
+}
+input#phno{
+   
+   height:50px;
+   width: 100%;
+   background-color: #EFBEEC;
 }
