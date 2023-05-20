@@ -65,7 +65,7 @@ Dashboard{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 30%;
+    width: 20%;
    height: 30vh;
     padding: 5px;
     border:5px solid #917FB3;
@@ -79,9 +79,7 @@ Dashboard{
     height: 50px;
     padding: 5px;
     border-radius: 20px;
-    
-   
-    background-color: #FDE2F3;
+  background-color: #FDE2F3;
 
 }
 .btn2{
@@ -145,20 +143,59 @@ float: left;
 
 input#pgname {
    
-    height: 50px;
+    height: 30px;
     width: 100%;
     background-color: #EFBEEC;
+    border-radius: 20px;
 }
-input#add{
+input[type="file"]{
    
-    height: 100px;
-    width:100%;
+  
     background-color: #EFBEEC;
+    color: #EFBEEC;
+    border-radius: 20px;
 
 }
-input#phno{
+.btn-3{
+    height:20px;
+    width: 30%;
+ background-color: #EFBEEC;
+ border-radius: 10%;
+}
+
+
+
+input#address{
    
-   height:50px;
+   height:80px;
    width: 100%;
    background-color: #EFBEEC;
+   border-radius: 20px;
+}
+input#facilities{
+    height: 10vh;
+    width: 100%;
+    background-color: #EFBEEC;
+   border-radius: 20px;
+    
+}
+input#rent{
+    height: 30px;
+    width: 100%;
+    background-color: #EFBEEC;
+   border-radius: 20px;
+}
+input#phone{
+    height: 30px;
+    width: 100%;
+    background-color: #EFBEEC;
+   border-radius: 20px;
+  
+}
+.btn-4{
+    height:60px;
+    width: 50%;
+ background-color: #EFBEEC;
+ border-radius: 50px;
+ 
 }
