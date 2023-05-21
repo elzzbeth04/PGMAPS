@@ -117,20 +117,20 @@ export default function Dashboard() {
             <button className="btn">HOME</button>
             <button className="btn2">DASHBOARD</button>
           </div>
-          <div className="centre">
+          <div className="center">
             {/* Card 1 */}
-            <div className="card">
-               <img className="pgpic" src={lakslogo} alt="" />
-              <div className="card-content">
-                <p>Name:LAKSHMI PGS</p>
-                <p>PHONE NO: 487981798789</p>
-                <p>ADDRESS: TC 23/1113, MARADU, KOCHI</p>
-                <p>RATING: ⭐ ⭐ ⭐ ⭐</p>
-                <p>
-                  <strong>RATE: ₹4500/month</strong>
-                </p>
-              </div>
-            </div>
+            {/* Card 2 */}
+            {data.map((pg, index) => (
+      <div className="card" key={index}>
+        <img className="pgpic" src={pg.photo_url} alt="" />
+        <div className="card-content">
+          <p>Name: {pg.pg_name}</p>
+          <p>PHONE NO: {pg.phone}</p>
+          <p>ADDRESS: {pg.address}</p>
+          {/* Add other properties here */}
+        </div>
+      </div>
+    ))}
            
           </div>
 
